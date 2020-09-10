@@ -16,7 +16,7 @@ In `emuradex/code/` there is `calc_lik_space.py` for making predictions with Rad
 
 The first can be substituted for `input1`.csv` or `input3.csv` that hold data for 1- and 3-phase observations. The `params_input.py` has to be substituted correspondingly for `params_input1.py` or `params_input3.py`. All files are in the same `emuradex/code` directory. Then, run, specifying the number of samples to make predictions for:
 
-`python calc_lik_space.py nsamples`\
+`python calc_lik_space.py nsamples`
 
 # Usage Examples
 
