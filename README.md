@@ -10,7 +10,13 @@ The model here is produced with `tensorflow.keras` (or `tf.keras`) library.
 
 Please download the `emuradex` repository to use it. 
 
-In `emuradex/code/` there is `calc_lik_space.py` for making predictions with Radex. The file requires an input `input.csv`, which can be substituted for `input1`.csv` or `input3.csv` with data for the corresponding 1 and 3 numbers of phases.
+In `emuradex/code/` there is `calc_lik_space.py` for making predictions with Radex. The file requires the inputs:  
+`input.csv`\
+`param_input.py`
+
+The first can be substituted for `input1`.csv` or `input3.csv` that hold data for 1- and 3-phase observations. The `params_input.py` has to be substituted correspondingly for `params_input1.py` or `params_input3.py`. All files are in the same `emuradex/code` directory. Then, run, specifying the number of samples to make predictions for:
+
+`python calc_lik_space.py nsamples`\
 
 # Usage Examples
 
@@ -42,4 +48,4 @@ as opposed to:
 
 ## Training a model
 
-The model was trained with the notebook `network_training.ipynb` in Google Colab.
+The model was trained with the notebook `network_training.ipynb` in Google Colab. The files for training are going to be provided...
